@@ -1,9 +1,8 @@
 require 'pry'
 def starts_with_a_vowel?(word)
 
-if word.scan(/\A[aeiou]/) != nil 
- binding.pry
-  return true 
+if word.match(/\A[aeiou]/) != nil 
+   return true 
 else 
   return false
 end
