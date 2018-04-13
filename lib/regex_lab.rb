@@ -1,3 +1,4 @@
+require(pry)
 def starts_with_a_vowel?(word)
 if word.scan(/\A[aeiou]/) != nil 
   return true 
